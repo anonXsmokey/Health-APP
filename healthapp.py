@@ -9,7 +9,7 @@ import google.generativeai as genai
 import base64 # Import base64 for image encoding
 
 # Configure the Gemini API
-genai.configure(api_key=st.secrets["AIzaSyCmHt92pUcpW1jVja_tjQt6XsdV6n6AFx0"])
+genai.configure(api_key=st.secrets["GOOGLE API KEY"])
 
 # Initialize the Generative Model. Using 'gemini-2.0-flash' for text generation.
 model = genai.GenerativeModel('gemini-2.0-flash')
